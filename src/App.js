@@ -14,7 +14,8 @@ class App extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?query=london")
+    let city = this.state.city;
+    fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?query=${city}`)
     .then(response => response.json()).then(dat => {
       fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${dat[0].woeid}`)
       .then(res => res.json()).then(veri => {
