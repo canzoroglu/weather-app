@@ -9,7 +9,7 @@
     "react-scripts": "^3.0.1"
   },
   "devDependencies": {},
-  "homepage": "https://github.com/canzoroglu/weather-app",
+  "homepage": "https://canzoroglu.github.io/weather-app/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -17,5 +17,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
