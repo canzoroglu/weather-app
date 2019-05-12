@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.a4363644.css",
-  "main.css.map": "static/css/main.a4363644.css.map",
-  "main.js": "static/js/main.603c0cb7.js",
-  "main.js.map": "static/js/main.603c0cb7.js.map"
+  "files": {
+    "main.css": "/canzoroglu/weather-app/static/css/main.76ddbed0.chunk.css",
+    "main.js": "/canzoroglu/weather-app/static/js/main.d8a5d81c.chunk.js",
+    "main.js.map": "/canzoroglu/weather-app/static/js/main.d8a5d81c.chunk.js.map",
+    "runtime~main.js": "/canzoroglu/weather-app/static/js/runtime~main.0effc5a0.js",
+    "runtime~main.js.map": "/canzoroglu/weather-app/static/js/runtime~main.0effc5a0.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/canzoroglu/weather-app/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/canzoroglu/weather-app/static/js/2.6efc73d3.chunk.js.map",
+    "index.html": "/canzoroglu/weather-app/index.html",
+    "precache-manifest.e807c6057c76c70ef4e189cc1cf362f0.js": "/canzoroglu/weather-app/precache-manifest.e807c6057c76c70ef4e189cc1cf362f0.js",
+    "service-worker.js": "/canzoroglu/weather-app/service-worker.js",
+    "static/css/main.76ddbed0.chunk.css.map": "/canzoroglu/weather-app/static/css/main.76ddbed0.chunk.css.map"
+  }
 }
