@@ -19,7 +19,7 @@ const Result = props => {
     });
     return (
       <div className="mt-4 mx-auto w-75">
-        <h3>Weather Conditions for {props.city}</h3>
+        <h3 id="caption">Weather Conditions for {props.city}</h3>
         <p className="small">Data are from <a href="https://www.metaweather.com/api/">Metaweather</a></p>
         <div id="results-div" className="d-flex justify-content-center mt-4">
           {results}
